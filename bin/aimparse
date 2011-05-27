@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+begin
+  require "aimparse"
+rescue LoadError
+  require "rubygems"
+  require "aimparse"
+end
+
+puts Aimparse::Parser.new(*ARGV).parse
