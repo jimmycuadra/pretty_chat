@@ -1,4 +1,4 @@
-module Aimparse
+module PrettyChat
   class Parser
     attr_accessor :input, :names, :padding, :output
 

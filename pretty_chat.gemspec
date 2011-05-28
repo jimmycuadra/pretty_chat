@@ -1,18 +1,18 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "aimparse/version"
+require "pretty_chat/version"
 
 Gem::Specification.new do |s|
-  s.name        = "aimparse"
-  s.version     = Aimparse::VERSION
+  s.name        = "pretty_chat"
+  s.version     = PrettyChat::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Jimmy Cuadra"]
   s.email       = ["jimmy@jimmycuadra.com"]
   s.homepage    = ""
-  s.summary     = %q{A command line tool to clean up an AIM chat log in the system clipboard.}
-  s.description = %q{A command line tool to clean up an AIM chat log in the system clipboard.}
+  s.summary     = %q{A command line tool to clean up chat logs.}
+  s.description = %q{A command line tool to clean up chat logs.}
 
-  s.rubyforge_project = "aimparse"
+  s.rubyforge_project = "pretty_chat"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
